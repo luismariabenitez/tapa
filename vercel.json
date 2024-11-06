@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/obtener-imagen.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/obtener-imagen", "dest": "/api/obtener-imagen.js" }
+  ]
+}
